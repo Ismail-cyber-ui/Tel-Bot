@@ -4,7 +4,8 @@ services:
     runtime: python
     repo: .
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "./start.sh"
+    startCommand: "python3 main.py"
     envVars:
       - key: BOT_TOKEN
         value: 8594466501:AAGf8OYkw8AS8xmHoqSgI_uvamBodJiNAGw
+
